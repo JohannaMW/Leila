@@ -58,8 +58,11 @@ h6,
 .h4,
 .h5,
 .h6 {
-    font-family: 'Arimo', sans-serif!important;
-    color: black !important;
+    font-family: 'Cabin', sans-serif!important;
+}
+
+h1 {
+	font-size: 15px;
 }
 
 h1,
@@ -68,6 +71,7 @@ h3,
 h4,
 h5 {
 	color: #87081D !important;
+	font-family: 'Pacifico', cursive !important;
 }
 
 body {
@@ -103,6 +107,7 @@ table {
 
 a {
 	text-decoration: none;
+	color: #333 !important;
 }
 
 
@@ -150,8 +155,15 @@ p {
 
 .text {
     position:relative;
+ }
+
+.nav-pills > li.active > a {
+	background-color: #D3D3D3 !important;
 }
 
+.nav-pills > li > a {
+	font-family:'Pacifico', cursive !important;
+}
 
 .navbar {
    background-color: transparent !important;
